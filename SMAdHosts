@@ -1,7 +1,7 @@
 #————SM广告丟那吗hosts————
 #版本：2.9
-#更新日期：251012
-#规则数：5041
+#更新日期：251031
+#规则数：5069
 
 #主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
 #订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
@@ -207,6 +207,8 @@
 0.0.0.0 mfp.deliver.ifeng.com
 0.0.0.0 stadig.ifeng.com
 0.0.0.0 api.newad.ifeng.com #信息流广告图
+0.0.0.0 bdmap1.ifeng.com  #网页信息流广告位+文字，显示的一片空白布局去不掉
+0.0.0.0 survey.news.ifeng.com  #网页底部横幅轮播新闻+“打开”按钮
 #搜狐新闻(含开屏)
 0.0.0.0 m.ads.sohu.com
 0.0.0.0 r.ads.sohu.com
@@ -334,7 +336,7 @@
 #高德地图(①开屏②③横幅和通知中心？№④№ 测试⑤play版15.0返场开屏广告⑥⑦№)
 0.0.0.0 optimus-ads.amap.com
 0.0.0.0 store.is.autonavi.com
-0.0.0.0 adiu.amap.com
+#0.0.0.0 adiu.amap.com  #误杀顺风车主接不到单
 0.0.0.0 cgicol.amap.com
 0.0.0.0 awaken.amap.com
 0.0.0.0 amap-aos-info-nogw.amap.com
@@ -342,7 +344,7 @@
 0.0.0.0 optimus-ads-ykx.amap.com
 #滴滴（①开屏广告会误伤主页一些图标的图）
 #0.0.0.0 img-ys011.didistatic.com
-0.0.0.0 adtrack.xiaojukeji.com  #追踪
+#0.0.0.0 adtrack.xiaojukeji.com  #滴滴顺风车主页面闪退到没网界面
 #去哪儿旅行（①顶部横幅广告图②开屏广告③强制升级弹窗）
 #0.0.0.0 qimgs.qunarzz.com
 0.0.0.0 homefront.qunar.com
@@ -504,13 +506,24 @@
 0.0.0.0 docerad.wps.cn
 0.0.0.0 update.thread0.com  #自定义水印相机更新？
 #百度输入法上传你输入了什么，副作用云联想词加载不出来。
-0.0.0.0 udpolimenew.baidu.com
+#0.0.0.0 udpolimenew.baidu.com
 0.0.0.0 udpolimeok.baidu.com
 0.0.0.0 upl.baidu.com
 0.0.0.0 ads.uutest.cn  #【测网速】
-#网页[美国地址生成器]弹窗广告①上面②中间
+#网页[美国地址生成器]弹窗广告①上面②中间弹窗③几乎铺满全屏的大弹窗
 0.0.0.0 offfurreton.com
 0.0.0.0 gloaphoo.net
+0.0.0.0 firsecuckoo.com
+#茄子快传(SHAREit)
+0.0.0.0 api-user.dalyfeds.com  #屏蔽底栏[发现]页的短视频和[游戏]裡满屏的小游戏
+0.0.0.0 mcds.dalyfeds.com  #开屏广告、[我的]页面广告、主页右下角伸缩贴图广告
+0.0.0.0 rs.dalyfeds.com  #广告素材
+0.0.0.0 www.pullcf.com  #首页的广告
+0.0.0.0 www.pullcm.com  #好像没影响
+0.0.0.0 adconf.rqmob.com
+0.0.0.0 adcs.rqmob.com
+0.0.0.0 api.rqmob.com
+0.0.0.0 static.rqmob.com  #首页上半部分的横幅视频、点进文件全屏弹窗、搜索小横幅广告
 
 
 #———————其•他———————
@@ -968,6 +981,7 @@
 
 #DNS，可能会导致hosts失效
 0.0.0.0 httpdns.c.cdnhwc2.com
+0.0.0.0 httpdns1.cc.cdnhwc5.com
 0.0.0.0 httpdns.pro
 0.0.0.0 httpdns.alicdn.com
 0.0.0.0 dns.qq.com
@@ -997,7 +1011,6 @@
 #0.0.0.0 httpdns.push.oppomobile.com
 0.0.0.0 httpdns.volcengineapi.com
 0.0.0.0 httpdns.zybang.com
-0.0.0.0 httpdns1.cc.cdnhwc5.com
 0.0.0.0 lofter.httpdns.c.163.com
 0.0.0.0 music.httpdns.c.163.com
 0.0.0.0 httpdns.immomo.com
@@ -1537,7 +1550,7 @@
 0.0.0.0 hydra.alibaba.com
 0.0.0.0 orange-dc.alibaba.com
 0.0.0.0 o2o-ad-clicking.alibaba.com
-#0.0.0.0 appdownload.alicdn.com  闲鱼聊天发送图片界面初始化被卡住
+#0.0.0.0 appdownload.alicdn.com  #闲鱼聊天发送图片界面初始化被卡住
 #0.0.0.0 download.alicdn.com 影响酷安部分阿里系APP下载，定制版淘宝更新资源包
 0.0.0.0 ossgw.alicdn.com
 0.0.0.0 gma.alicdn.com
@@ -1606,7 +1619,7 @@
 0.0.0.0 sjarvis.taobao.com
 0.0.0.0 h-adashx4yt.ut.taobao.com
 0.0.0.0 openacs.m.taobao.com
-#0.0.0.0 msgacs.m.taobao.com  淘宝店铺聊天消息
+#0.0.0.0 msgacs.m.taobao.com  淘宝和店铺聊天消息
 0.0.0.0 acs4public.m.taobao.com
 0.0.0.0 accscdn4public.m.taobao.com
 0.0.0.0 qh-material.taobao.com  #莉景天气开屏广告
@@ -1800,7 +1813,7 @@
 0.0.0.0 sjh.baidu.com
 0.0.0.0 ns-strategy.cdn.bcebos.com
 0.0.0.0 fc1tn.baidu.com
-0.0.0.0 bj.bcebos.com
+#0.0.0.0 bj.bcebos.com  酷友反馈误杀理想汽车APP驻车照片。
 0.0.0.0 fc-image.cdn.bcebos.com
 0.0.0.0 fc2tn.baidu.com
 0.0.0.0 fc4tn.baidu.com
@@ -2773,7 +2786,7 @@
 127.0.0.1 etl-xlmc-ssl.sandai.net
 127.0.0.1 cn.app.chat.xiaomi.net
 #屏蔽系统更新
-0.0.0.0 update.miui.com
+#0.0.0.0 update.miui.com
 #小米rom下载加速（备用IP香港163.181.35.44，182.239.104.89，台北47.246.36.217，47.246.37.220）
 47.246.37.220 bigota.d.miui.com
 47.246.37.220 hugeota.d.miui.com
@@ -3539,6 +3552,7 @@
 0.0.0.0 events.ads.vungle.com
 0.0.0.0 logs.ads.vungle.com
 0.0.0.0 cdn-lb.vungle.com
+0.0.0.0 logs-cn.ads.vungle.com
 
 0.0.0.0 cm.adkmob.com
 0.0.0.0 ssdk.adkmob.com
@@ -3592,6 +3606,22 @@
 0.0.0.0 api.yfanads.com
 0.0.0.0 nl-new-cdn-ssplib-europe-west4-b-hb.rayjump.com
 #0.0.0.0 yandex.ru 【vpnify】底部横幅和弹窗，看上去会误杀很多俄罗斯的yandex网站的内容
+#从茄子快传(SHAREit)抓出的广告域名
+0.0.0.0 noti-asia.adsmoloco.com
+0.0.0.0 plutus.lacunads.com
+0.0.0.0 adx.mossru.com
+0.0.0.0 tk.mossru.com
+0.0.0.0 tkda.mossru.com
+0.0.0.0 sg-new-ssplib-asia-southeast1-b-hb.rayjump.com
+0.0.0.0 sg-new-ssplib-asia-southeast1-c-hb.rayjump.com
+0.0.0.0 log.sgsnssdk.com
+0.0.0.0 mediation-sg.pangle.io
+0.0.0.0 mediation-sg2-log.pangle.io
+0.0.0.0 api.dollphoin.site
+0.0.0.0 api.inmense.site
+0.0.0.0 api.kickoffo.site
+0.0.0.0 api.onegg.site
+#————SHAREit End————
 
 
 #=========各大广告联盟=========
@@ -4118,6 +4148,7 @@
 0.0.0.0 ujoy.anythinktech.com
 0.0.0.0 aa.birdgesdk.com
 0.0.0.0 pitk.birdgesdk.com
+0.0.0.0 api.bridgeoos.com
 #天目广告
 0.0.0.0 www.admobile.top
 0.0.0.0 a.admobile.top
