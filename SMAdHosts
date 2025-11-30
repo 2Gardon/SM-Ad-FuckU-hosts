@@ -1,7 +1,7 @@
 #————SM广告丟那吗hosts————
 #版本：2.9
-#更新日期：251031
-#规则数：5069
+#更新日期：251201
+#规则数：4963
 
 #主页：https://github.com/2Gardon/SM-Ad-FuckU-hosts/blob/master/SMAdHosts
 #订阅：https://raw.githubusercontent.com/2Gardon/SM-Ad-FuckU-hosts/refs/heads/master/SMAdHosts
@@ -33,9 +33,6 @@
 140.82.112.25 live.github.com
 140.82.113.22 central.github.com
 192.0.66.2 github.blog
-13.107.42.16 pipelines.actions.githubusercontent.com
-185.199.110.153 lsposed.github.io
-185.199.110.153 topjohnwu.github.io
 185.199.110.154 github.githubassets.com  #网页排版
 185.199.110.153 githubstatus.com
 185.199.110.154 docs.github.com
@@ -54,6 +51,12 @@
 185.199.110.133 avatars3.githubusercontent.com
 185.199.110.133 avatars4.githubusercontent.com
 185.199.110.133 avatars5.githubusercontent.com
+
+#————————测试区————————
+#0.0.0.0 api.m.jd.com  #京东更新弹窗，副作用未知，应该有点大。
+0.0.0.0 appdownload.xianyu.alibaba-inc.com  #闲鱼更新？
+0.0.0.0 res.openinstall.com
+0.0.0.0 access.pickpackapp.com  #pikpak中国IP不给用弹窗，副作用未知
 
 
 #———————社•交•类———————
@@ -345,6 +348,7 @@
 #滴滴（①开屏广告会误伤主页一些图标的图）
 #0.0.0.0 img-ys011.didistatic.com
 #0.0.0.0 adtrack.xiaojukeji.com  #滴滴顺风车主页面闪退到没网界面
+#0.0.0.0 ut-static.udache.com  #滴滴顺风车邀请车主贴图广告，误杀查看进行中的行程
 #去哪儿旅行（①顶部横幅广告图②开屏广告③强制升级弹窗）
 #0.0.0.0 qimgs.qunarzz.com
 0.0.0.0 homefront.qunar.com
@@ -396,6 +400,9 @@
 0.0.0.0 imgad0.pconline.com.cn
 0.0.0.0 imgad0.pcbaby.com.cn
 0.0.0.0 ads.ishansong.com  #闪送(没发现开屏广告所以不知道是不是开屏)
+#哈啰开屏广告(只禁①会漏)
+0.0.0.0 admaster-public.51downapp.cn
+0.0.0.0 g.fancyapi.com
 
 
 #———————住•房————————
@@ -1070,20 +1077,11 @@
 #腾讯广告
 0.0.0.0 lcsdk.3g.qq.com
 0.0.0.0 masdk.3g.qq.com
-0.0.0.0 pmir.3g.qq.com
-0.0.0.0 tools.3g.qq.com
 0.0.0.0 analy.qq.com
 0.0.0.0 beacon.qq.com
 0.0.0.0 beaconcdn.qq.com
 0.0.0.0 mqqeve.beacon.qq.com
 0.0.0.0 oth.str.beacon.qq.com
-0.0.0.0 bugly.qq.com
-0.0.0.0 aexception.bugly.qq.com
-0.0.0.0 android.bugly.qq.com
-0.0.0.0 astat.bugly.qq.com
-0.0.0.0 ios.bugly.qq.com
-0.0.0.0 pro.bugly.qq.com  #七猫用
-0.0.0.0 dp3.qq.com
 0.0.0.0 e.qq.com
 0.0.0.0 sdk.e.qq.com
 0.0.0.0 sdkreport.e.qq.com
@@ -1092,9 +1090,7 @@
 0.0.0.0 rpt.gdt.qq.com
 0.0.0.0 v.gdt.qq.com
 0.0.0.0 v2.gdt.qq.com
-0.0.0.0 win.gdt.qq.com  #七猫用
-0.0.0.0 httpring.qq.com
-0.0.0.0 c.isdspeed.qq.com
+0.0.0.0 win.gdt.qq.com
 0.0.0.0 l.qq.com
 0.0.0.0 c.l.qq.com
 0.0.0.0 livep.l.qq.com
@@ -1102,28 +1098,8 @@
 0.0.0.0 news.l.qq.com
 0.0.0.0 p.l.qq.com
 0.0.0.0 analytics.map.qq.com
-0.0.0.0 msdk.qq.com
-0.0.0.0 ssl.msdk.qq.com
-0.0.0.0 img.ssl.msdk.qq.com
-0.0.0.0 omgmta.qq.com
-0.0.0.0 omgmta1.qq.com
-0.0.0.0 pingfore.qq.com
-0.0.0.0 pingjs.qq.com
-0.0.0.0 pingma.qq.com
-0.0.0.0 pingtcss.qq.com
-0.0.0.0 qring-tms.qq.com
-0.0.0.0 rs1.qq.com
-0.0.0.0 rs2.qq.com
-0.0.0.0 scdown.qq.com
-0.0.0.0 sngmta.qq.com
-0.0.0.0 tajs.qq.com
 0.0.0.0 log.tbs.qq.com
 0.0.0.0 trace.qq.com
-0.0.0.0 monitor.uu.qq.com
-0.0.0.0 wspeed.qq.com
-0.0.0.0 wspeed.qq.com.domain.name
-0.0.0.0 log.wtlogin.qq.com
-0.0.0.0 ysdk.qq.com
 0.0.0.0 vqq.admaster.com.cn
 0.0.0.0 www.vqq.admaster.com.cn
 0.0.0.0 apd-pcdnvodstat.teg.tencent-cloud.net
@@ -1132,7 +1108,6 @@
 0.0.0.0 tmead.y.qq.com
 #0.0.0.0 h.trace.qq.com 误杀手游加速器功能页
 0.0.0.0 hb.kg.qq.com
-0.0.0.0 tdid.m.qq.com
 0.0.0.0 oth.str.mdt.qq.com
 0.0.0.0 oth.eve.mdt.qq.com
 0.0.0.0 adsmind.gdtimg.com
@@ -1144,16 +1119,9 @@
 0.0.0.0 astrategy.beacon.qq.com
 0.0.0.0 eventlog.beacon.qq.com
 0.0.0.0 strategy.beacon.qq.com
-0.0.0.0 dnet.mb.qq.com
-0.0.0.0 yun-hl.3g.qq.com
-0.0.0.0 tmfsdktcpv4.m.qq.com
-0.0.0.0 dl.txcdns.com
 0.0.0.0 union.gdtimg.com
 0.0.0.0 splashqqlive.gtimg.com
 0.0.0.0 yybadaccess.3g.qq.com
-0.0.0.0 jqmt.qq.com
-0.0.0.0 ta.qq.com
-0.0.0.0 tcss.qq.com
 0.0.0.0 w.l.qq.com
 0.0.0.0 swa.gtimg.com
 0.0.0.0 lb.gtimg.com
@@ -1164,14 +1132,6 @@
 0.0.0.0 wa.gtimg.com
 0.0.0.0 pgdt.gtimg.com
 #腾讯！
-0.0.0.0 2052.flash2-http.qq.com
-0.0.0.0 3gsoftfile.tc.qq.com
-0.0.0.0 3gsoftfile.tcdn.qq.com
-0.0.0.0 a.ac.qq.com
-0.0.0.0 a.ssl.msdk.qq.com
-0.0.0.0 ac.o2.qq.com
-0.0.0.0 act.qq.com
-0.0.0.0 activeqq.3g.qq.com
 0.0.0.0 ad.weixin.qq.com
 0.0.0.0 adfilter.imtt.qq.com
 0.0.0.0 adpm.app.qq.com
@@ -1187,147 +1147,52 @@
 0.0.0.0 adv.app.qq.com
 0.0.0.0 adver.qq.com
 #0.0.0.0 aegis.qq.com  误杀手游加速器功能页
-0.0.0.0 ag.qq.com
-0.0.0.0 agent.sj.qq.com
-0.0.0.0 agstat.html5.qq.com
-0.0.0.0 ahf.bugly.qq.com
-0.0.0.0 aid.video.qq.com
-0.0.0.0 android.rqd.qq.com
-0.0.0.0 api.bugly.qq.com
-0.0.0.0 api.youtu.qq.com
-0.0.0.0 appchannel.html5.qq.com
-0.0.0.0 appicsh.qq.com
-#0.0.0.0 applog.reader.qq.com
-0.0.0.0 appstore.qzone.qq.com
-0.0.0.0 appsupport.qq.com
-0.0.0.0 aq.qq.servirce.com
 0.0.0.0 as.weixin.qq.com
-0.0.0.0 b269.photo.store.qq.com
 0.0.0.0 badjs.qq.com
-0.0.0.0 bkcommdata.v.qq.com
-0.0.0.0 bksoup.v.qq.com
-0.0.0.0 boss.qzone.qq.com
 0.0.0.0 bs.l.qq.com
-0.0.0.0 bsrv.qq.com
 0.0.0.0 btrace.qq.com
 0.0.0.0 btrace.video.qq.com
-0.0.0.0 bugreportv2.qq.com
-0.0.0.0 buluo.qq.com
-0.0.0.0 c.ssp.qq.com
 0.0.0.0 c2.gdt.qq.com
 0.0.0.0 c2.l.qq.com
-0.0.0.0 caclick.qq.com
 0.0.0.0 canvas.gdt.qq.com
-0.0.0.0 cas.bugly.qq.com
 0.0.0.0 cb.l.qq.com
-0.0.0.0 cdn.read.html5.qq.com
-0.0.0.0 cfg.imtt.qq.com
 #0.0.0.0 cgi.connect.qq.com  #据说误杀王者荣耀QQ登录，测试未发现异常；以及游戏120帧，未测。 据说安卓抖音异常？
-0.0.0.0 cgi.pub.qq.com
-0.0.0.0 cgi.qianbao.qq.com
-0.0.0.0 client.show.qq.com
 0.0.0.0 cm.e.qq.com
 0.0.0.0 cm.l.qq.com
-0.0.0.0 commdata.v.qq.com
-0.0.0.0 commdata6.v.qq.com
-0.0.0.0 community.xw.qq.com
-0.0.0.0 cookie-law-enforcement-qq.xyz
-0.0.0.0 cp.discuz.qq.com
-0.0.0.0 crash.browser.qq.com
 0.0.0.0 d.gdt.qq.com
-0.0.0.0 d3g.qq.com
-0.0.0.0 data.qq.com
-0.0.0.0 defaultts.tc.qq.com
-0.0.0.0 detect.mb.qq.com
-0.0.0.0 di.ssl.msdk.qq.com
 0.0.0.0 dir.minigame.qq.com
-0.0.0.0 dl_dir.qq.com
-0.0.0.0 dl_dir2.qq.com
 #0.0.0.0 dldir1.qq.com  #腾讯手游加速器开屏广告，误杀微信官网网页无法下载安卓版微信、微信视频号封面图和UP主头像。
 #0.0.0.0 dldir2.qq.com
 #0.0.0.0 dldir3.qq.com  #误杀欢乐麻将不少道具图标和角色装扮。
 #0.0.0.0 dldir4.qq.com
 #0.0.0.0 dldir5.qq.com
-0.0.0.0 dlied6.qq.com
-0.0.0.0 dldir1v6.qq.com
-0.0.0.0 dmtrack.buy.qq.com
-0.0.0.0 etg.qq.com
-0.0.0.0 event.toggle.qq.com
-0.0.0.0 ex.qq.com
-0.0.0.0 fm.qzone.qq.com
-0.0.0.0 fodder.qq.com
-0.0.0.0 fodder.tc.qq.com
-0.0.0.0 fusion.qq.com
-0.0.0.0 fw.qq.com
 0.0.0.0 gdt.qq.com
-0.0.0.0 gouwu.qq.com
-0.0.0.0 growthpic.weishi.qq.com
-0.0.0.0 hd2.3g.qq.com
 0.0.0.0 hm.l.qq.com
-0.0.0.0 huatuo.qq.com
-0.0.0.0 huatuocode.huatuo.qq.com
-0.0.0.0 huskieaccess.bugly.qq.com
-0.0.0.0 i-game.book.qq.com
 0.0.0.0 i.gdt.qq.com
-0.0.0.0 if.mingxing.qq.com
-0.0.0.0 img1.sj.qq.com
-0.0.0.0 info.3g.qq.com
 0.0.0.0 info.gdt.qq.com
 0.0.0.0 infotrack.gdt.qq.com
 0.0.0.0 ipv4.gdt.qq.com
-0.0.0.0 isdspeed.qq.com
 #0.0.0.0 isee.weishi.qq.com #微视_短剧_短剧广场会没网
-0.0.0.0 j.wit.qq.com
-0.0.0.0 jpush.html5.qq.com
 0.0.0.0 jrlt.beacon.qq.com
 0.0.0.0 jsapi.html5.qq.com
 0.0.0.0 jsapi.qq.com
 0.0.0.0 jsqmt.qq.c
 0.0.0.0 jsqmt.qq.com
 0.0.0.0 k.ssp.qq.com
-0.0.0.0 kr59779-qq.com
 0.0.0.0 l2.l.qq.com
 0.0.0.0 lb.l.qq.com
-0.0.0.0 life.html5.qq.com
 0.0.0.0 livem.l.qq.com
 0.0.0.0 livep.l.ott.video.qq.com
 0.0.0.0 lives.l.ott.video.qq.com
-0.0.0.0 lmbsy.qq.com
-0.0.0.0 log1wtlogin.qq.com
-0.0.0.0 log6.reader.qq.com
-0.0.0.0 logsdk.qq.com
 0.0.0.0 ls.l.qq.com
-0.0.0.0 m-game.book.qq.com
-0.0.0.0 m.bugly.qq.com
 0.0.0.0 m.gdt.qq.com
-0.0.0.0 mapp.qzone.qq.com
 0.0.0.0 mark.l.qq.com
-0.0.0.0 market.m.qq.com
-0.0.0.0 masdkv6.3g.qq.com
-0.0.0.0 masterconn.qq.com
-0.0.0.0 mazu.3g.qq.com
-0.0.0.0 mcgi.v.qq.com
-0.0.0.0 mdevstat.qqlive.qq.com
 0.0.0.0 mdt.qq.com
 0.0.0.0 mig.str.mdt.qq.com
-0.0.0.0 mini2015.qq.com
-0.0.0.0 minisite2012.qq.com
-0.0.0.0 minorshort.weixin.qq.com
-0.0.0.0 misc.wcd.qq.com
-0.0.0.0 mobwin.app.qq.com
-0.0.0.0 monitor.music.qq.com
-0.0.0.0 monitor.qq.com
-0.0.0.0 moviets.tc.qq.com
-0.0.0.0 mqqadr.showreader.qq.com
-0.0.0.0 msm.qq.com
-0.0.0.0 mta.qq.com
 0.0.0.0 mtt.eve.mdt.qq.com
-0.0.0.0 mw.app.qq.com
 0.0.0.0 n.ssp.qq.com
 0.0.0.0 nc.gdt.qq.com
-0.0.0.0 newlog.reader.qq.com
 0.0.0.0 news-l.play.ott.video.qq.com
-0.0.0.0 news.mpush.qq.com
 0.0.0.0 oimsgad.qq.com
 0.0.0.0 omgid.qq.com
 0.0.0.0 omgmta.play.ott.video.qq.com
@@ -4796,6 +4661,7 @@
 0.0.0.0 opehs.tanx.com
 0.0.0.0 sdk-config.tanx.com
 0.0.0.0 kgb-ifs.tanx.com
+0.0.0.0 bdlog.tanx.com
 #阿里巴巴-wrating
 0.0.0.0 c.wrating.com
 0.0.0.0 sohu.wrating.com
@@ -4846,7 +4712,7 @@
 0.0.0.0 www.tingyun.com
 #杯子广告
 0.0.0.0 api-htp.beizi.biz
-0.0.0.0 sdk-api.beizi.biz  #据说123云盘卡开屏？反正我测试都没卡过。
+#0.0.0.0 sdk-api.beizi.biz  #据说123云盘卡开屏？反正我测试都没卡过。
 0.0.0.0 sdk.beizi.biz
 0.0.0.0 sdk-event.beizi.biz
 0.0.0.0 sdk-ipv6.beizi.biz
@@ -5591,3 +5457,4 @@
 0.0.0.0 adshows.21cn.com  #天翼云盘抓出来的，有他没他都不影响开屏、弹窗广告
 0.0.0.0 tk2.xfadx.com  #安兔兔
 0.0.0.0 t.ag.b9ad.com  #安兔兔
+0.0.0.0 ads.cxwlad.com  #畅行未来
